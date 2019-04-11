@@ -44,18 +44,41 @@
 							<div class="user_box_login user_box_link"><a href="#">login</a></div>
 							<div class="user_box_register user_box_link"><a href="#">register</a></div>
 						</div>
-					  	<div class="dropdown">
-                <div class="dropbtn">RU</div>
-                  <div class="dropdown-content">
-                    <a href="#">RU</a>
-                    <a href="#">EN</a>
-										<a href="#">GE</a>
-										<a href="#">IT</a>
-										<a href="#">ES</a>
-										<a href="#">CR</a>
-                  </div>
-             </div>
-					</div>
+						<div>
+						<select name="" id="input0" required="required" style="background-image:url(images/lng_ru.png);">
+	<option  style="background-image:url('http://s1.iconbird.com/ico/1012/Flag/w24h241351179945Russia5.png');" value="rus">rus</option>
+	<option  style="background-image:url('http://s1.iconbird.com/ico/1012/Flag/w24h241351180237UnitedKingdom5.png');" value="eng">eng</option>
+	<option  style="background-image:url('http://s1.iconbird.com/ico/1012/Flag/w24h241351178977Germany5.png');" value="ger">ger</option>
+	<option  style="background-image:url('http://s1.iconbird.com/ico/1012/Flag/w24h241351179278Italy5.png');" value="ita">ita</option>
+	<option  style="background-image:url('http://s1.iconbird.com/ico/1012/Flag/w24h241351180113Spain5.png');" value="esp">esp</option>
+	<option  style="background-image:url('http://s1.iconbird.com/ico/1012/Flag/w24h241351178840Croatia5.png');" value="cro">eng</option>
+</select>
+
+<script>
+$('#input0').click(function() {
+if($("select#input0 :selected").val() == "rus") {
+	$("select#input0").attr('style', 'background-image:url('http://s1.iconbird.com/ico/1012/Flag/w24h241351179945Russia5.png');');
+}
+if($("select#input0 :selected").val() == "eng") {
+	$("select#input0").attr('style', 'background-image:url('http://s1.iconbird.com/ico/1012/Flag/w24h241351180237UnitedKingdom5.png');');
+}
+if($("select#input0 :selected").val() == "ger") {
+	$("select#input0").attr('style', 'background-image:url('http://s1.iconbird.com/ico/1012/Flag/w24h241351178977Germany5.png');');
+}
+if($("select#input0 :selected").val() == "ita") {
+	$("select#input0").attr('style', 'background-image:url('http://s1.iconbird.com/ico/1012/Flag/w24h241351179278Italy5.png');');
+}
+if($("select#input0 :selected").val() == "esp") {
+	$("select#input0").attr('style', 'background-image:url('http://s1.iconbird.com/ico/1012/Flag/w24h241351180113Spain5.png');');
+}
+if($("select#input0 :selected").val() == "cro") {
+	$("select#input0").attr('style', 'background-image:url('http://s1.iconbird.com/ico/1012/Flag/w24h241351178840Croatia5.png');');
+}
+	console.log('select color: '+$("select#input0 :selected").val());
+});
+</script>
+</div>
+					   </div>
 				</div>
 			</div>
 		</div>
