@@ -148,8 +148,8 @@
 body
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
 	font-weight: 400;
+  font-size: 14px;
 	background: #FFFFFF;
 	color: #a5a5a5;
 }
@@ -1982,7 +1982,7 @@ section
 	width: 100%;
 	padding-top: 113px;
 	padding-bottom: 104px;
-	background: #31124b;
+	background: #9eb8f1;
 }
 .footer_title
 {
