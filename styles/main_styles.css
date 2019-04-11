@@ -80,21 +80,21 @@
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351179945Russia5.png') no-repeat left center;
 }
 
-.dropdown-content a: nth-child(2)
+.dropdown-content a:last-child
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351180237UnitedKingdom5.png') no-repeat left center;
 }
 
-.dropdown-content a: nth-child(3)
+.dropdown-content a:last-child
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351178977Germany5.png') no-repeat left center;
 }
 
-.dropdown-content a: nth-child(4)
+.dropdown-content a:last-child
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351179278Italy5.png') no-repeat left center;
 }
-.dropdown-content a: nth-child(5)
+.dropdown-content a:last-child
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351180113Spain5.png') no-repeat left center;
 }
