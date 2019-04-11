@@ -482,6 +482,7 @@ section
 	font-size: 10px;
 	line-height: 36px;
 	font-weight: 600;
+  padding-right: 4px;
 	color: #FFFFFF;
 	text-transform: uppercase;
 }
