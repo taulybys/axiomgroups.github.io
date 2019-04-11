@@ -75,30 +75,46 @@
     width: 16px;
 }
 
-.dropdown-content a: nth-child(1)
- {
+.dropdown-content a:first-child
+{
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351179945Russia5.png') no-repeat left center;
 }
 
+<<<<<<< HEAD
 .dropdown-content a:last-child
+=======
+.dropdown-content a: "EN"
+>>>>>>> parent of 4f5c0d7... Update main_styles.css
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351180237UnitedKingdom5.png') no-repeat left center;
 }
 
+<<<<<<< HEAD
 .dropdown-content a:last-child
+=======
+.dropdown-content a: "GE"
+>>>>>>> parent of 4f5c0d7... Update main_styles.css
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351178977Germany5.png') no-repeat left center;
 }
 
+<<<<<<< HEAD
 .dropdown-content a:last-child
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351179278Italy5.png') no-repeat left center;
 }
 .dropdown-content a:last-child
+=======
+.dropdown-content a:IT
+{
+  background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351179278Italy5.png') no-repeat left center;
+}
+.dropdown-content a: "ES"
+>>>>>>> parent of 4f5c0d7... Update main_styles.css
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351180113Spain5.png') no-repeat left center;
 }
-.dropdown-content a: nth-child(6)
+.dropdown-content a:last-child
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351178840Croatia5.png') no-repeat left center;
 }
