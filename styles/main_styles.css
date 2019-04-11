@@ -42,6 +42,7 @@
 .dropbtn {
     padding: 5px;
     cursor: pointer;
+		margin-left: 3px;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -80,21 +81,21 @@
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351179945Russia5.png') no-repeat left center;
 }
 
-.dropdown-content a:last-child
+.dropdown-content a:second-child
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351180237UnitedKingdom5.png') no-repeat left center;
 }
 
-.dropdown-content a:last-child
+.dropdown-content a:third-child
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351178977Germany5.png') no-repeat left center;
 }
 
-.dropdown-content a:last-child
+.dropdown-content a:forth-child
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351179278Italy5.png') no-repeat left center;
 }
-.dropdown-content a:last-child
+.dropdown-content a:fifth-child
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351180113Spain5.png') no-repeat left center;
 }
