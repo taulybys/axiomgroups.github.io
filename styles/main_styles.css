@@ -75,30 +75,30 @@
     width: 16px;
 }
 
-.dropdown-content a:first-child
-{
+.dropdown-content a: nth-child(1)
+ {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351179945Russia5.png') no-repeat left center;
 }
 
-.dropdown-content a: "EN"
+.dropdown-content a: nth-child(2)
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351180237UnitedKingdom5.png') no-repeat left center;
 }
 
-.dropdown-content a: "GE"
+.dropdown-content a: nth-child(3)
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351178977Germany5.png') no-repeat left center;
 }
 
-.dropdown-content a:IT
+.dropdown-content a: nth-child(4)
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351179278Italy5.png') no-repeat left center;
 }
-.dropdown-content a: "ES"
+.dropdown-content a: nth-child(5)
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351180113Spain5.png') no-repeat left center;
 }
-.dropdown-content a:last-child
+.dropdown-content a: nth-child(6)
 {
   background: url('http://s1.iconbird.com/ico/1012/Flag/w24h241351178840Croatia5.png') no-repeat left center;
 }
